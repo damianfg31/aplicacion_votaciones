@@ -62,7 +62,7 @@ if(isset($_POST['acceder'])){
         </div>
         <div class="col-md-8">
             <h1 class="text-center"> Administrador - Sistema de Votaciones 2021</h1>
-            <h5 class="text-center">Corporación Universitaria Autónoma de Nariño</h5>
+            <h5 class="text-center">Corporación Universitaria Autónoma de Nariño - AUNAR Pasto</h5>
         </div>
         <div class="col-md-1">
             <img class="log_vot" src="../../img/voting-box.png" alt="Votación">
