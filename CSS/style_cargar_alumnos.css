@@ -1,0 +1,152 @@
+:root{
+    --footer: #17202A;
+    --fondo: #17A589 ;
+    --titulo: #F1C40F ;
+    --header:  #0E6251;
+}
+
+/*Incrustación fuentes locales*/
+@font-face{
+    font-family: 'Quicksand-b';
+    src: url('../Fonts/Quicksand-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Quicksand-r';
+    src: url('../Fonts/Quicksand-R.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Quicksand-sb';
+    src: url('../Fonts/Quicksand-SB.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General en la página*/
+body{
+    background: var(--fondo);
+    font-family: 'Quicksand-b', 'Arial';
+    color: var(--titulo);
+}
+
+h6{
+    font-family: 'Quicksand-sb';
+}
+
+/*Header*/
+header{
+    padding: 20px 0px;
+    background: var(--footer);
+}
+
+header nav{
+    justify-content: flex-end;
+    padding-left: 700px;
+}
+
+header nav .container-fluid ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header nav .container-fluid ul li a{
+    outline: none;
+    text-decoration: none;
+    color: var(--fondo);
+}
+
+header nav .container-fluid ul li a:hover{
+    color: var(--titulo);
+}
+
+header .container-fluid .row{
+    align-items: center;
+}
+
+header .container-fluid .row .col-md-1{
+    margin-right: 15px;
+    margin-left: 26px;
+}
+
+header .container-fluid .row .col-md-5{
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+header .container-fluid .row .col-md-2{
+    font-family: 'Quicksand-r';
+}
+
+/*Contenido*/
+.container{
+    margin: 80px 0px;
+    color: var(--footer);
+}
+
+.container div h2{
+    padding: 0px 80px;
+}
+
+.container div h6{
+    padding: 10px 80px;
+}
+
+.container div form{
+    background: var(--header);
+    color: var(--titulo);
+    font-family: 'Quicksand-sb';
+    margin-left: 400px;
+    padding: 35px 70px;
+    border-radius: 20px;
+}
+
+.container div form .form-group{
+    padding-bottom: 5px;
+}
+
+.container div form .form-group select{
+    font-family: 'Quicksand-r';
+}
+
+.container div form .form-group input{
+    font-family: 'Quicksand-r';
+}
+
+.container div form .button{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.container div form .button input{
+    margin-right: 10px;
+}
+
+/*footer*/
+footer{
+    background: var(--footer);
+    padding: 20px 50px;
+    font-family: 'Quicksand-r';
+    font-size: 15px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .creditos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
